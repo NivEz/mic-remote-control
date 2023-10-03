@@ -30,3 +30,8 @@ body {
     box-shadow: 0 10px #a82466;
     transform: translateY(10px);
 }
+
+.mic-svg {
+    width: 32px;
+    height: 32px;
+}

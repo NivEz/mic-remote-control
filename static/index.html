@@ -2,13 +2,14 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css">  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>This is the title of the webpage!</title>
   </head>
   <body>
     <button id="toggle-mic-btn" class="btn" isactive="false"></button>
     <div id="svg-container">
-      <object id="mic-on" type="image/svg+xml" data="assets/mic-on.svg" width="32px" height="32px"></object>
-      <object id="mic-off" type="image/svg+xml" data="assets/mic-off.svg" width="32px" height="32px"></object>
+      <object id="mic-on" class="mic-svg" type="image/svg+xml" data="assets/mic-on.svg"></object>
+      <object id="mic-off" class="mic-svg" type="image/svg+xml" data="assets/mic-off.svg"></object>
     </div>
   </body>  
   <script type="text/javascript" src="index.js"></script>

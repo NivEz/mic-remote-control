@@ -1,0 +1,32 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#toggle-mic-btn {
+    width: 300px;
+    height: 200px;
+    background-color: #cc0066;
+    color: yellow;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50%;
+    margin: 30px;
+    box-shadow: 0 20px #a82466;
+    border: 1px solid #1f1c1c9c;
+    cursor: pointer;
+}
+
+#toggle-mic-btn.pressed {
+    background-color: #ff66b3;
+    color: yellow;
+    box-shadow: 0 10px #a82466;
+    transform: translateY(10px);
+}

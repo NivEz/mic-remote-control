@@ -10,5 +10,5 @@ This project uses `win32api` so it supports only windows computers.
 2. Create a virtual environment: `python -m venv venv`.
 3. Activate the virtual environment: execute `venv\Scripts\activate`.
 4. Install dependencies: `pip install -r requirements.txt`.
-5. Run the project: `python main.py` and fill the input.
-6. Your local IPv4 will be printed, use it to connect from your phone on port 8000.
+5. Run the project: `python main.py` and fill the input, you can run the `bat` script as well that activates the venv and runs the script: `run.bat`.
+6. Your local IPv4 will be printed, use it to connect from your phone on port 80.

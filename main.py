@@ -36,4 +36,4 @@ if __name__ == '__main__':
     IS_MUTED = get_user_input()
     mic = Mic(IS_MUTED)
     print(f"\nTher server will be hosted on IPv4 address: [{get_ip_address()}]\n")
-    uvicorn.run(app, host='0.0.0.0', port=8000)
+    uvicorn.run(app, host='0.0.0.0', port=80)
